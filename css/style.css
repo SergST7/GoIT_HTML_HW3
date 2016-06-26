@@ -18,10 +18,13 @@ a{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .logo{
-    width: 149px;
-    height: 49px;
     margin-bottom: 40px;
     background: url(../img/logo.png) no-repeat center ;
+    width: 149px;
+}
+.logo a{
+    display: block;
+    height: 49px;
 }
 nav{
     height: 40px;
@@ -89,7 +92,29 @@ nav{
     background: url(../img/bike.jpg) no-repeat center;
 }
 .right-content p{
-    margin: 40px 30px;
+    margin: 40px 30px 60px;
+    line-height: 22px;
     font-size: 14px;
     color: #2c2c2c;
+}
+
+/*FOOTER*/
+
+footer{
+    padding: 0 25px;
+    height: 40px;
+    background-color: #E1E1E1;
+    font-size: 13px;
+    line-height: 40px;
+    color: #2c2c2c;
+}
+footer a{
+    color: #2c2c2c;
+    padding-right: 90px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.copyright{
+    float: right;
 }
