@@ -1,3 +1,75 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
+    
+}
+a{
+    text-decoration: none;
+}
+
+/*HEAD*/
+
+.wrapper{
+    width: 1060px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.logo{
+    width: 149px;
+    height: 49px;
+    margin-bottom: 40px;
+    background: url(../img/logo.png) no-repeat center ;
+}
+nav{
+    height: 40px;
+    margin-bottom: 40px;
+    background:url("../img/bg-head-menu.png") repeat-x;
+}
+.head-menu{
+    font-size:0; /* убираем горизонтальные отступы */
+    line-height:0; /* ...и вертикальные в некоторых браузерах */
+    letter-spacing:-1px; /* переубеждаем webkit'ы */
+}
+.head-menu li{
+    font-size:15px; /* Не забываем восстановить нормальные значения */
+    line-height:40px;
+    letter-spacing:normal;
+    display:inline;
+}
+.head-menu li a{
+    padding: 0 50px;
+    display: inline-block;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+.head-menu li a:hover{
+    background: url("../img/bg-head-menu-hover.png") repeat-x;
+}
+
+/*CONTENT*/
+
+.left-menu{
+    width:240px;
+    border: 1px solid #ededed;
+}
+
+.left-menu li{
+    height: 40px;
+    border-bottom: 1px solid  #ededed;
+}
+.left-menu li:last-child{
+    border-bottom: none;
+}
+.left-menu li a{
+    display: block;
+    line-height: 40px;
+    padding-left: 25px;
+    color: #656363;
+}
+.left-menu li a:hover{
+    background-color: #f9f9f9;
+    color: black;
+    padding-left: 35px;
 }
