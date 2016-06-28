@@ -1,26 +1,25 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f9f9f9;
-    
 }
 a{
     text-decoration: none;
 }
-
-/*HEAD*/
-
 .wrapper{
     box-sizing: border-box;
     width: 1060px;
-    margin: 0 auto;
+    margin: 0 auto 25px;
     padding: 50px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
+/*HEAD*/
+
 .logo{
     margin-bottom: 40px;
     background: url(../img/logo.png) no-repeat center ;
-    width: 149px;
+    width: 150px;
 }
 .logo a{
     display: block;
@@ -40,25 +39,30 @@ nav{
     font-size:15px; /* Не забываем восстановить нормальные значения */
     line-height:40px;
     letter-spacing:normal;
-    display:inline;
+    display:inline-block;
 }
 .head-menu li a{
     padding: 0 50px;
     display: inline-block;
     color: #fff;
+    border-left:1px solid transparent;
+    border-right:1px solid transparent;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 .head-menu li a:hover{
     background: url("../img/bg-head-menu-hover.png") repeat-x;
+    border-left:1px solid #838383;
+    border-right:1px solid #838383;
 }
 
 /*CONTENT*/
 
 .content{
+    position: relative;
     overflow: hidden;
 }
 .left-menu{
-    width:240px;
+    width:25%;
     border: 1px solid #ededed;
     float: left;
 }
@@ -83,10 +87,10 @@ nav{
     padding-left: 35px;
 }
 .right-content{
-    margin-left: 280px;
+    width: 65%;
+    float: right;
 }
 .image{
-    width: 678px;
     height: 400px;
     border: 1px solid  #ededed;
     background: url(../img/bike.jpg) no-repeat center;
